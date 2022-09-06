@@ -1,0 +1,450 @@
+.sobre-content{
+    width: 100%;
+    min-height: 688px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sobre-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #FF8E6E;
+    
+}
+
+.sobre-sobre{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color:  #515070;
+    
+
+}
+
+.sobre-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    color:  #898989;
+    max-width: 493px;
+    height: 134px;
+
+}
+
+.banner-main{
+
+    height: 45vw;
+    background-image: url("/assets/img/home/image (1).png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+
+.banner-main2{
+
+    height: 45vw;
+    background-image: url("/assets/img/home/image (2).png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+
+
+.imgg{
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.service-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    
+}
+
+.service-sobre{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    
+
+}
+
+.service-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    max-width: 493px;
+    min-height: 134px;
+}
+
+
+
+.conteudo{
+    height: 100%;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.depoimentos{
+    width: 100%;
+    min-height: 688px;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.card{
+    width: 580px;
+    background-color: #fff;
+    padding: 22px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    margin: 10px;
+    box-shadow: 0px 4px 34px rgba(8, 53, 120, 0.05);
+    border-radius: 3px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dep-perfil{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+
+}
+
+.dep-nome{
+    font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #515070;
+margin: 0;
+}
+
+.dep-data{
+    color: #FF8E6E;
+    font-size: 12px;
+    margin: 0;
+}
+
+.dep-desc{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #898989;
+    font-weight: 400;
+    margin: 10px;
+}
+
+
+
+
+.sobre-new{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.sobre-content2{
+    width: 100%;
+    min-height: 688px;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+
+.imgg2{
+    width: 40%;
+}
+
+
+.funcionalidades{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    flex-direction: column;
+}
+
+
+.content-funcionalidades{
+    display: flex;
+    height: 650px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    flex-direction: raw;
+}
+
+.funcionalidades-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #FF8E6E;
+    line-height: 22px;
+}
+.img-funcionalidade{
+    width: 50px;
+}
+.funcionalidades-card{
+    display: flex;
+    align-items: center;
+
+}
+
+.img-funcionalidade{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.title-funcionalidade{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.sobre-funcionalidade{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    width: 243px;
+}
+
+.celular{
+    position: absolute;
+    bottom: 0; 
+}
+
+@media(max-width: 1230px){
+
+
+    .cont{
+        margin: 10px;
+    }
+
+    .cards{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin: 0;
+        width: 90%;
+        height: auto;
+        padding: 0;
+        margin: 10px;
+    }
+
+
+    .fala-cliente{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sobre, .sobre-new{
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 1030px){
+
+    .imgg2, .imgg{
+        width: 60%;
+    }
+    
+    .sobre{
+        display: flex;
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .sobre-container{
+        margin: 10px;
+
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+
+    
+    
+
+    .content-funcionalidades{
+
+        justify-content: space-around;
+        height: auto;
+        padding: 40px 0px 80px 0px;
+    }
+    
+    .celular{
+        position: relative;
+
+    }
+
+
+    .sobre-new{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+
+    .banner-main, .banner-main2{
+
+        height: 65vw;
+        background-size: auto;
+    }
+  
+}
+
+
+@media(max-width: 800px){
+
+    .content-funcionalidades{
+
+        flex-direction: column;
+        justify-content: initial;
+    }
+
+    .perfil{
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .data-nome{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .dep-desc{
+        text-align: center;
+    }
+
+    .sobre-title, .funcionalidades-title{
+        font-size: 32px;
+    }
+
+    .conteudo{
+        margin-bottom: 40px;
+    }
+
+    .imgg2, .imgg{
+        width: 80%;
+    }
+
+    .service-title{
+        font-size: 38px;
+    }
+    
+
+    .banner-main, .banner-main2{
+
+        height: 75vw;
+        background-size: auto;
+    }
+
+}
+
+@media(max-width: 670px){
+     .banner-main2{
+
+        height: 80vw;
+        background-size: auto;
+    }
+}
+
+@media(max-width: 600px){
+    .banner-main, .banner-main2{
+
+        height: 90vw;
+        background-size: auto;
+    }
+
+    .banner-main2{
+
+        height: 80vh;
+        background-size: auto;
+    }
+}
+
+
+@media(max-width: 500px){
+
+    .imgg2, .imgg{
+        width: 90%;
+    }
+
+    .banner-main{
+
+        height: 90vh;
+        background-size: auto;
+    }
+
+  
+
+  
+}

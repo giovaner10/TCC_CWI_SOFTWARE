@@ -1,0 +1,325 @@
+.formulario-section{
+    display: flex;
+    min-height: 552px;
+    flex-direction: column;
+}
+
+
+.divise{
+    display: flex;
+    min-height: 552px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+p, .mark-input, .campo-input{
+    margin: 0;
+}
+
+
+.titulo-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.title-form{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF8E6E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.envelope{
+    width: 48px;
+    height: 21px;
+
+}
+
+.form-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 722px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    line-height: 50px;
+    border-bottom: 1px solid #D7D7D7;
+    margin-bottom: 40px;
+}
+
+
+
+.campo-title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #898989;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+.campo-input{
+
+    border: 0;
+    max-width: 340px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #252424;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+
+
+.campo-input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #A9A9A9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-radio{
+    display: flex;
+    border-bottom: 1px solid #D7D7D7;
+
+}
+.campo-radio{
+    display: flex;
+
+}
+.campo-input-radio{
+    max-width: 340px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #898989;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 25px 0px 2px;
+}
+
+
+.check-input{
+    display: flex;
+    align-items: center;
+}
+
+.mark-input{
+    border: solid 5px black;
+    color: #D7D7D7
+    ;
+}
+
+.mark-input::-ms-check{
+    background-color: red;
+}
+
+.wid-form{
+
+    width: 722px;
+}
+
+.text-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    resize: none;
+    flex-wrap: wrap;
+}
+
+.title-check{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.rectangulo-contato{
+    display: flex;
+    flex-direction: column;
+    min-height: 552px;
+    width: 441px;
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.11);
+    padding: 20px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.p-rec-title{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.info-contato{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.info-image-contato{
+    width: 18.77px;
+    height: 29px;
+    left: 881px;
+    top: 734px;
+}
+
+
+.endereco-rec{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    max-width: 211px;
+}
+
+
+.vector2{
+    width: 26px;
+    height: 26px;
+}
+
+
+.vector3{
+    width: 34px;
+    height: 15.41px;
+}
+
+.banner-main2{
+
+    height: 45vw;
+    background-image: url("/assets/img/contato/image\ \(4\).png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.margin-container{
+    margin: 10px;
+}
+
+
+
+
+@media(max-width: 1285px){
+    .wid-form{
+        margin: 10px;
+    }
+}
+
+@media(max-width: 1198px){
+
+    .divise{
+        align-items: center;
+        justify-content: center;
+    }
+    .wid-form{
+        width: 100%;
+    }
+
+    .form-sec{
+        width: 100%;
+    }
+
+
+    .form-sec{
+        justify-content: space-around;
+    }
+    .campo{
+        margin-right: 10px;
+        width: 30%;
+    }
+    .text-area{
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .rectangulo-contato{
+        margin: 0;
+        width: 100%;
+        padding: 35px;
+    }
+}
+
+
+
+@media(max-width: 820px){
+   
+
+    
+
+    .banner-main2{
+
+        height: 65vw;
+        background-position: center;
+       
+    }
+
+}
+
+
+@media(max-width: 720px){
+   
+
+    .campo{
+        width: 90%;
+    }
+
+    .banner-main2{
+
+        height: 75vw;
+       
+    }
+
+}
+
+
+
+@media(max-width: 605px){
+
+    .text-area{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .b2{
+        margin-top: 52px;
+    }
+
+    .banner-main2{
+
+        height: 95vw;
+       
+    }
+}
+
+
+@media(max-width: 520px){
+    .titulo-form{
+        justify-content: space-around;
+    }
+
+    .banner-main2{
+
+        height: 80vh;
+       
+    }
+
+}

@@ -1,0 +1,181 @@
+.pessoas{
+    width: 100%;
+    min-height: 490px;
+    background-color: #fff;
+}
+
+.pessoas-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #515070;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.pessoas-texto{
+    font-size: 18px;
+    font-weight: 400;
+    color: #515070;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin: 0px 10px 0px 10px;
+    text-align: justify;
+}
+
+
+.banner-main2{
+
+    height: 45vw;
+    background-image: url("/assets/img/sobre/image (3).png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+
+.margin-container{
+    margin: 10px;
+}
+
+.pessoas-fotos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    flex-wrap: wrap;
+
+}
+
+.fotos-p{
+    width: 257px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.objetivos{
+    width: 100%;
+    min-height: 425px;
+    background-color: #F6F6F6;
+}
+
+
+.ojetivo-card{
+    display: flex;
+    max-width: 336px;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-objetive{
+    width: 57px;
+    height: 57px;
+}
+
+.title-image{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #515070;
+    margin-left: 15px;
+}
+
+
+
+.objetivo-text{
+    width: 336px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #898989;    
+    line-height: 29px;
+}
+
+.ajustes-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+@media(max-width: 1110px){
+    .pessoas-fotos{
+        justify-content: center;
+        margin: 0;
+    }
+
+    .ajustes-card{
+       
+        justify-content: space-around;
+    }
+}
+@media(max-width: 860px){
+
+    .fotos-p{
+        width: 40%;
+        height: auto;
+    }
+
+    .banner-main2{
+
+        height: 65vw;
+        background-image: url("/assets/img/sobre/image (3).png");
+        background-position: center; /* Center the image */
+        background-size: cover;
+    }
+}
+
+@media(max-width: 720px){
+
+
+    .pessoas-fotos{
+        justify-content: center;
+        margin: 0;
+    }
+
+
+    .pessoas-title{
+        font-size: 42px;
+    }
+
+
+    .banner-main2{
+
+        height: 85vw;
+        background-image: url("/assets/img/sobre/image (3).png");
+        background-position: center; /* Center the image */
+        background-size: cover;
+    }
+}
+
+
+
+@media(max-width: 555px){
+
+    .fotos-p{
+        width: 80%;
+        height: auto;
+    }
+
+    .banner-main2{
+
+        height: 80vh;
+        background-image: url("/assets/img/sobre/image (3).png");
+        background-position: center; /* Center the image */
+        background-size: cover;
+    }
+}

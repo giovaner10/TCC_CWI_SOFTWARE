@@ -1,0 +1,132 @@
+.footer{
+    width: 100%;
+    height: 187px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.logos-footer{
+    width: 100%;
+    height: 34px;
+    margin-bottom: 50px;
+}
+
+.logos-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo-cwi, .logo-crescer{
+    height: 100%;
+
+}
+
+
+.links-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.menu-footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 412px ;
+    justify-content: space-between;
+
+
+}
+
+
+.menu-item-footer{
+    font-size: 16px;
+    height: 100%;
+    display: flex;
+
+}
+
+
+.menu-item-link-footer{
+    font-size: 14px;
+    color: #898989;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    transition: border 0.2s ease ;
+}
+
+
+.licenca{
+    font-size: 14px;
+    text-align: justify;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #898989;
+}
+
+.licenca-res{
+    font-size: 14px;
+    text-align: justify;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #898989;
+    display: none;
+}
+
+
+@media(max-width: 920px){
+
+    .footer{
+        height: 70px;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    
+
+    .menu-footer{
+        display: none;
+    }
+
+    .logo-crescer{
+        display: none;
+    }
+
+    .logos-footer{
+        margin: 0;
+    }
+
+    .licenca-res{
+        display: inline;
+        text-align: end;
+        font-size: 12px;
+    }
+
+
+    .licenca{
+        display: none;
+    }
+
+    .links-footer {
+        align-self: flex-end;
+    }
+    .res{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
